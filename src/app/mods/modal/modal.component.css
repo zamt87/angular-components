@@ -1,0 +1,12 @@
+.actions:empty {
+  display: none;
+}
+
+.actions-default {
+  display: none;
+}
+
+/* if action is empty && if there is a sibling item called actions-default, display action-default */
+.actions:empty + .actions-default {
+  display: block;
+}

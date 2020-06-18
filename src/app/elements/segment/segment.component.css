@@ -1,0 +1,4 @@
+/* if the content of the header div is empty, remove all including margins */
+div.ui.icon.header:empty {
+  display: none;
+}
